@@ -1,8 +1,8 @@
 # 🏥 UNet for Medical Image Segmentation 🧠
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/your-username/your-repo)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/your-repo)
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/your-repo)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/yanis112/UNetAndChill)
+![GitHub last commit](https://img.shields.io/github/last-commit/yanis112/UNetAndChill)
+![GitHub repo size](https://img.shields.io/github/repo-size/yanis112/UNetAndChill)
 
 This repository contains a PyTorch implementation of the UNet architecture for medical image segmentation tasks. It leverages the power of `uv` for efficient virtual environment management and includes comprehensive training and testing pipelines.
 
