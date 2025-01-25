@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+#folders
+data
+data_unstructured
+models
+checkpoints
+plots
+test_results
+
+
+# Virtual environments
+.venv

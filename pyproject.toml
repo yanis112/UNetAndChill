@@ -1,0 +1,24 @@
+[project]
+name = "ovocyte-segmentation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "albumentations==2.0.1",
+    "huggingface-hub>=0.27.1",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "nest-asyncio>=1.6.0",
+    "opencv-python>=4.11.0.86",
+    "pytest>=8.3.4",
+    "python-dotenv>=1.0.1",
+    "pytorch-forecasting>=1.2.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "streamlit-cropper>=0.2.2",
+    "torch>=2.5.1",
+    "torchsummary>=1.5.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.48.1",
+]

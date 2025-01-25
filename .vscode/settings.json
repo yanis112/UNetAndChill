@@ -1,0 +1,24 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}\\src"
+  ],
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder};${workspaceFolder}\\src"
+  },
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.analysis.autoImportCompletions": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": [
+        "-NoExit", 
+        "-Command",
+        "Set-Location \"${workspaceFolder}\"; & \"${workspaceFolder}\\.venv\\Scripts\\Activate.ps1\""
+      ]
+    }
+  }
+}
